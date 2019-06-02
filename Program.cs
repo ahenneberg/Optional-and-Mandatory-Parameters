@@ -60,7 +60,7 @@ namespace Optional_and_Mandatory_Parameters
              * this:    Man(x:1, 2);    // Compile-time error           */
             /* For the bar method, we can call this, supplying only 1 value
              for d as follows:                                          */
-            Bar (d:3);
+            Bar (d:3);          // 0, 0, 0, 1
             // This is particularly useful when calling COM APIS (CH. 3).
         }
     }
